@@ -13,8 +13,8 @@ The project demonstrates how to:
 ## Repository Structure
 ```
 src/                # Data prep, training, evaluation, integration scripts
-data/               # Downloaded + processed dataset (or scripts to fetch/prepare it)
-artifacts/          # Trained models, vectorizers, unified schema
+data/               # Downloaded + processed dataset
+artifacts/          # Trained model
 configs/            # Wazuh, Filebeat, and OpenSearch configuration examples
 ```
 ## Integration into Wazuh

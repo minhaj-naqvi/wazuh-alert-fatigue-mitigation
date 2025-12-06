@@ -16,7 +16,7 @@ src/                # Data prep, training, evaluation, integration scripts
 data/               # Downloaded + processed dataset (or scripts to fetch/prepare it)
 artifacts/          # Trained models, vectorizers, unified schema
 configs/            # Wazuh, Filebeat, and OpenSearch configuration examples
-
+```
 ## Integration into Wazuh
 The `src/integration/ml_triage.py` script can be deployed on a Wazuh manager to enrich incoming Sysmon alerts with model predictions. Example Filebeat and OpenSearch configurations are provided in `configs/`.
 
